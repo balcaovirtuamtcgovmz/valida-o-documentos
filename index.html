@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Permit de Transporte Comercial - Cash Now</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            background: #fff;
+            margin: 0 auto;
+            padding: 30px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #1a365d;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .company-name {
+            font-size: 20pt;
+            font-weight: bold;
+            color: #1a365d;
+            text-transform: uppercase;
+        }
+        .doc-title {
+            font-size: 14pt;
+            font-weight: bold;
+            color: #4a5568;
+            margin-top: 5px;
+        }
+        .section-title {
+            background-color: #edf2f7;
+            padding: 6px 10px;
+            font-size: 11pt;
+            font-weight: bold;
+            color: #2d3748;
+            text-transform: uppercase;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-left: 4px solid #1a365d;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+        td {
+            padding: 8px 10px;
+            font-size: 10pt;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .label {
+            font-weight: bold;
+            color: #4a5568;
+            width: 30%;
+        }
+        .value {
+            color: #1a202c;
+            font-weight: 600;
+        }
+        .signature-section {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .signature-line {
+            width: 250px;
+            border-top: 1px solid #000;
+            margin: 0 auto 5px auto;
+        }
+        .qrcode-section {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .qrcode-box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #ccc;
+            margin: 0 auto 10px auto;
+            padding: 5px;
+        }
+        .verify-text {
+            font-size: 8.5pt;
+            color: #718096;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="company-name">CASH NOW SERVICES</div>
+        <div class="doc-title">PERMIT DE TRANSPORTE E CARGA PRIVADA Nº 2026-001</div>
+    </div>
+
+    <div class="section-title">Dados do Transportador / Empresa</div>
+    <table>
+        <tr>
+            <td class="label">Razão Social:</td>
+            <td class="value">CASH NOW, LDA</td>
+        </tr>
+        <tr>
+            <td class="label">NUIT:</td>
+            <td class="value">400 114 552</td>
+        </tr>
+        <tr>
+            <td class="label">Endereço:</td>
+            <td class="value">Maputo, Moçambique</td>
+        </tr>
+    </table>
+
+    <div class="section-title">Dados do Veículo</div>
+    <table>
+        <tr>
+            <td class="label">Matrícula:</td>
+            <td class="value">AGF 719 MP</td>
+        </tr>
+        <tr>
+            <td class="label">Marca / Modelo:</td>
+            <td class="value">FREIGHTLINER ARGOSY</td>
+        </tr>
+        <tr>
+            <td class="label">Capacidade Bruta:</td>
+            <td class="value">48.000 kg</td>
+        </tr>
+    </table>
+
+    <div class="section-title">Detalhes da Licença / Validade</div>
+    <table>
+        <tr>
+            <td class="label">Data de Emissão:</td>
+            <td class="value">12/06/2026</td>
+        </tr>
+        <tr>
+            <td class="label">Data de Expiração:</td>
+            <td class="value">12/07/2026</td>
+        </tr>
+        <tr>
+            <td class="label">Rota / Abrangência:</td>
+            <td class="value">Nacional (Moçambique)</td>
+        </tr>
+    </table>
+
+    <div class="signature-section">
+        <div class="signature-line"></div>
+        <div><strong>A Autoridade Emissora</strong></div>
+        <div style="font-size: 9pt; color: #718096;">Cash Now Operations</div>
+    </div>
+
+    <div class="qrcode-section">
+        <div class="qrcode-box">
+            <!-- Insira a imagem do QR Code gerada aqui -->
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://balcaovirtuamtc.github.io/validation-check/" alt="QR Code">
+        </div>
+        <div class="verify-text">
+            Valide este documento através do QR Code acima ou acesse:<br>
+            <strong>https://balcaovirtuamtc.github.io/validation-check/</strong>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
