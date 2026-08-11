@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>console.log("Consulta de permit carregada — versão GitHub Pages."));
